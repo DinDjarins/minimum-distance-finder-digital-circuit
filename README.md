@@ -24,7 +24,7 @@
  - Once all room locations have been compared with first router, the minimum distance of rooms from that router is stored and the counter is iterated again such that it resets when it finds a router location on a count value higher than the previously stored router's count value.
  - Then the adder is fed the stored location of second router and the room locations through ROM (counter is now iterated for all locations but only valid room locations are fed to adder).
  - The distance is then stored to be compared with next distance.
- - The minimum of two distances is stored, which is then compared to next minimum and so on (count value of room distance corresponding to minimum distance is also stored).
+ - The minimum of two distances is stored, which is then compared to next minimum and so on (count value of room location corresponding to minimum distance is also stored).
  - Once all room locations have been compared with second router, the minimum distance of rooms from that router now is compared to previously stored distance distance of rooms from first router and the counter is iterated again such that it resets when it finds a router location on a count value higher than the previously stored router's count value.
  - The minimum of two is stored, which is then compared to next minimum and so on (count value of room and router locations corresponding to minimum distance are also stored).
  - Finally the count value of the required room and router location are viewed on 7-segment display.
